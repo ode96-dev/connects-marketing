@@ -1,6 +1,7 @@
 "use client";
 
 import BookingModal from "@/components/booking-modal/booking-modal";
+import ComparisonSection from "@/components/home/comparison-section";
 import HeroExact from "@/components/home/hero-exact";
 import SynergyMatrix from "@/components/home/synergy-matrix";
 import PillarModal from "@/components/pillar-modal/pillar-modal";
@@ -25,6 +26,8 @@ export default function Home() {
             onSelectPillar={(pillar) => setSelectedPillar(pillar)}
             onOpenBooking={() => setIsBookingOpen(true)}
           />
+
+          <ComparisonSection />
         </main>
 
         <PillarModal
