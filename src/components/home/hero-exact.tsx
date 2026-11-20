@@ -23,28 +23,15 @@ const HEADLINE_LINES = [
   {
     id: "line-1",
     parts: [
-      { text: "YOUR BUSINESS DOESN'T", className: "text-[#0b1320] font-bold" },
-    ],
-  },
-  {
-    id: "line-2",
-    parts: [
-      { text: "NEED MORE ", className: "text-[#0b1320] font-bold" },
-      { text: "MARKETING. IT", className: "text-[#989ea7] font-semibold" },
-    ],
-  },
-  {
-    id: "line-3",
-    parts: [
       {
         text: "NEEDS MARKETING THAT",
-        className: "text-[#989ea7] font-semibold",
+        className: "text-black font-semibold",
       },
     ],
   },
   {
-    id: "line-4",
-    parts: [{ text: "CONNECTS.", className: "text-[#989ea7] font-semibold" }],
+    id: "line-2",
+    parts: [{ text: "CONNECTS?", className: "text-[#989ea7] font-semibold" }],
   },
 ];
 
