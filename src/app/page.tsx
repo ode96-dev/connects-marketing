@@ -1,6 +1,7 @@
 "use client";
 
 import BookingModal from "@/components/booking-modal/booking-modal";
+import CaseStudies from "@/components/home/case-studies";
 import ComparisonSection from "@/components/home/comparison-section";
 import DisconnectAudit from "@/components/home/disconnect-audit";
 import HeroExact from "@/components/home/hero-exact";
@@ -31,6 +32,8 @@ export default function Home() {
           <ComparisonSection />
 
           <DisconnectAudit onOpenBooking={() => setIsBookingOpen(true)} />
+
+          <CaseStudies onOpenBooking={() => setIsBookingOpen(true)} />
         </main>
 
         <PillarModal
